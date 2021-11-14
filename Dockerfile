@@ -4,8 +4,8 @@ RUN apt update && apt install vim -y
 
 RUN mkdir -p /opt/panda/alamakota
 
-WORKDIR /opt/panda/alamakota
+WORKDIR /opt/panda/
 
-COPY sourcecode.txt .
+COPY sourcecode.txt alamakota/
 
 CMD sleep 300
