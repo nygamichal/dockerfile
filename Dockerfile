@@ -1,2 +1,3 @@
 FROM busybox:latest
-CMD ["date"]
+ENTRYPOINT ["echo"]
+CMD ["-e", "lalala\aasd"]
